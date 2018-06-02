@@ -14,6 +14,7 @@ class Anagram
         if word.split.sort == @maybe_anagram.split.sort
           matched_words << word
         end
+      end
 
   end
 end
