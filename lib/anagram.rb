@@ -2,9 +2,9 @@ class Anagram
 
   attr_accessor :maybe_anagram
 
-  #def initialize(maybe_anagram)
-  #  @maybe_anagram = maybe_anagram
-  #end
+  def initialize(maybe_anagram)
+    @maybe_anagram = maybe_anagram
+  end
 
   def self.match(words)
     matched_words = []
