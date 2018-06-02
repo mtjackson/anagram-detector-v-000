@@ -12,7 +12,7 @@ class Anagram
     words_to_match.each do |word|
       if word.length == @maybe_anagram.length
         if word.split.sort == @maybe_anagram.split.sort
-          word
+          matched_words << word
         end
 
   end
