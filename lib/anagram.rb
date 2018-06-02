@@ -6,7 +6,7 @@ class Anagram
     @maybe_anagram = maybe_anagram
   end
 
-  def self.match(words)
+  def Anagram.match(words)
     words_to_match = %w(words)
     #words_to_match.each do |word|
 
