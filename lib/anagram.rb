@@ -9,8 +9,6 @@ class Anagram
   def match(words)
     matched_words = []
 
-    #words_to_match = %w(words)
-
     words.each do |word|
       if word.length == @maybe_anagram.length
         if word.split("").sort == @maybe_anagram.split("").sort
